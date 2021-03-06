@@ -1,14 +1,8 @@
-# Tailwind CSS as a PostCSS Plugin
-
-A starter template for very simple projects (no frameworks) with Tailwind CSS setup as a PostCSS plugin. You only need to install NPM.
-
-Follow the Getting Started guide and build websites with Tailwind CSS. Also, follow the steps to Optimize for Production to end up with a very tiny final CSS bundle.
-
 ## Getting Started
 
 1.  Clone the repository
 
-         git clone https://github.com/ThirusOfficial/tailwind-css-starter-postcss.git {{ your project name }}
+         git clone https://github.com/nandkk05/kwizz-tailwind.git {{ your project name }}
 
     Alternately you can download the zip file and unzip it.
 
