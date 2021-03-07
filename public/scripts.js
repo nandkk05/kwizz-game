@@ -5,23 +5,33 @@ const app = Vue.createApp({
             selectedAnswer: '',
             correctAnswer: 0,
             wrongAnswer: 0,
-            count: 3,
+            count: 5,
             questions: [
                 
                 {
-                    question: "How many moons does Mars have?",
-                    answers: {a: '1', b: '2', c:'4', d:'5'},
-                    correctAnswer: 'b'
-                },
-                {
-                    question: "Hey you",
-                    answers: {a: 'Bags', b: 'Cat', c:'Dog', d:'Gef'},
-                    correctAnswer: 'b'
-                },
-                {
-                    question: "Last Question",
-                    answers: {a: 'Bags', b: 'Cat', c:'Dog', d:'Gef'},
+                    question: "The playing area of Golf is known as …",
+                    answers: {a: 'Arena', b: 'Court', c:'Ring', d:'Course'},
                     correctAnswer: 'd'
+                },
+                {
+                    question: "Tata Institute of Fundamental Research is located in …",
+                    answers: {a: 'New Delhi', b: 'Gulberg', c:'Mumbai', d:'Lucknow'},
+                    correctAnswer: 'c'
+                },
+                {
+                    question: "Nuclear Fuel Complex is located in …",
+                    answers: {a: 'Mumbai', b: 'Udhagamandalam', c:'Hyderabad', d:'Kolkata'},
+                    correctAnswer: 'c'
+                },
+                {
+                    question: "Which one of the following oceans has the longest coastline?",
+                    answers: {a: 'Atlantic', b: 'Pacific', c:'Indian', d:'Arctic'},
+                    correctAnswer: 'a'
+                },
+                {
+                    question: "Sheesh Mahal is located in …………",
+                    answers: {a: 'Chennai', b: 'Agra', c:'Jammu & Kashmir', d:'Lucknow'},
+                    correctAnswer: 'b'
                 }
             ]
         }
